@@ -1,0 +1,14 @@
+D:\WorkPC\ProjectX\ProjectX\bin\Debug\ProjectX.exe.config
+D:\HomePC\ProjectX\ProjectX\bin\Debug\ProjectX.exe.config
+H:\C_shurp\Home_Task\ProjectX\ProjectX\bin\Debug\ProjectX.exe.config
+H:\C_shurp\Home_Task\ProjectX\ProjectX\bin\Debug\ProjectX.exe
+H:\C_shurp\Home_Task\ProjectX\ProjectX\bin\Debug\ProjectX.pdb
+H:\C_shurp\Home_Task\ProjectX\ProjectX\obj\Debug\ProjectX.csprojResolveAssemblyReference.cache
+H:\C_shurp\Home_Task\ProjectX\ProjectX\obj\Debug\ProjectX.exe
+H:\C_shurp\Home_Task\ProjectX\ProjectX\obj\Debug\ProjectX.pdb
+E:\Pr_Cshurp\Exam\ProjectX\ProjectX\bin\Debug\ProjectX.exe.config
+E:\Pr_Cshurp\Exam\ProjectX\ProjectX\obj\Debug\ProjectX.exe
+E:\Pr_Cshurp\Exam\ProjectX\ProjectX\obj\Debug\ProjectX.pdb
+E:\Pr_Cshurp\Exam\ProjectX\ProjectX\bin\Debug\ProjectX.exe
+E:\Pr_Cshurp\Exam\ProjectX\ProjectX\bin\Debug\ProjectX.pdb
+E:\Pr_Cshurp\Exam\ProjectX\ProjectX\obj\Debug\ProjectX.csprojResolveAssemblyReference.cache
