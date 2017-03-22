@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <root>
-  <account name="admin" login="admin" passw="b59c67bf196a4758191e42f76670ceba" />
-  <account name="teacher" login="teacher" passw="934b535800b1cba8f96a5d72f72f1611" />
-  <account name="student" login="student" passw="2be9bd7a3434f7038ca27d1918de58bd" />
+  <account name="admin" login="admin" passw="21232f297a57a5a743894a0e4a801fc3" />
+  <account name="teacher" login="teacher" passw="8d788385431273d11e8b43bb78f3aa41" />
+  <account name="student" login="student" passw="cd73502828457d15655bbd7a63fb0bc8" />
 </root>

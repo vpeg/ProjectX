@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.IO;
 using System.Runtime.Serialization.Formatters.Binary;
 
+
 namespace ProjectX
 {
     class DataManager
@@ -18,6 +19,7 @@ namespace ProjectX
             subj = new List<Subject>();
             bf = new BinaryFormatter();
         }
+
 
         public void SaveData()
         {
@@ -36,6 +38,12 @@ namespace ProjectX
         public void AddSubject(Subject s)
         {
             subj.Add(s);
+            SaveData();
+        }
+
+        public void DeleteSubject(Subject s)
+        {
+            subj.Remove(s);
             SaveData();
         }
 

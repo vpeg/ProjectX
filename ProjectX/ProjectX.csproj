@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="AdminMenu.cs" />
     <Compile Include="Answer.cs" />
+    <Compile Include="Authorization.cs" />
     <Compile Include="BaseMenu.cs" />
     <Compile Include="DataManager.cs" />
     <Compile Include="Program.cs" />

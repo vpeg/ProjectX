@@ -12,3 +12,9 @@ E:\Pr_Cshurp\Exam\ProjectX\ProjectX\obj\Debug\ProjectX.pdb
 E:\Pr_Cshurp\Exam\ProjectX\ProjectX\bin\Debug\ProjectX.exe
 E:\Pr_Cshurp\Exam\ProjectX\ProjectX\bin\Debug\ProjectX.pdb
 E:\Pr_Cshurp\Exam\ProjectX\ProjectX\obj\Debug\ProjectX.csprojResolveAssemblyReference.cache
+D:\Рабочая\Киев\IT Step Academy\Git\ProjectX\ProjectX\bin\Debug\ProjectX.exe.config
+D:\Рабочая\Киев\IT Step Academy\Git\ProjectX\ProjectX\obj\Debug\ProjectX.exe
+D:\Рабочая\Киев\IT Step Academy\Git\ProjectX\ProjectX\obj\Debug\ProjectX.pdb
+D:\Рабочая\Киев\IT Step Academy\Git\ProjectX\ProjectX\bin\Debug\ProjectX.exe
+D:\Рабочая\Киев\IT Step Academy\Git\ProjectX\ProjectX\bin\Debug\ProjectX.pdb
+D:\Рабочая\Киев\IT Step Academy\Git\ProjectX\ProjectX\obj\Debug\ProjectX.csprojResolveAssemblyReference.cache

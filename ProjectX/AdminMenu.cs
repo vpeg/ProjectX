@@ -10,16 +10,14 @@ namespace ProjectX
     {
         public void Start()
         {
+            Console.Title = "Экзаменационный проект: \"CISCO Tests Analyzer\"";
             Console.Clear();
-            Console.WriteLine("=======================");
-            Console.WriteLine("Проект <<<Тестирование в массы!!!>>>");
-            Console.WriteLine("=======================");
             Console.WriteLine("1) Добавление нового теста");
             Console.WriteLine("2) Добавление вопросов в тест");
             Console.WriteLine("3) Удаление старых вопросов");
             Console.WriteLine("4) Удаление устаревших тестов");
             Console.WriteLine("5) Выход");
-            Console.WriteLine("=======================");
+            Console.WriteLine();
         }
         public int GetChoice()
         {

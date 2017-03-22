@@ -10,55 +10,76 @@ namespace ProjectX
     {
         static void Main(string[] args)
         {
-            AdminMenu am = new AdminMenu();
-            //am.Start();
+            Console.Title = "\"СИСТЕМА ТЕСТИРОВАНИЯ ПО КУРСАМ CCNA CISCO\"";
+            Authorization athm = new Authorization();
 
-            BaseMenu bm = new BaseMenu();
-            //bm.Start();
+            athm.Display();
 
-            UserMenu um = new UserMenu();
+            DataManager dm = new DataManager();
 
-            do
+            switch (athm.GetUsrAuthorizationResult())
             {
-                try
-                {
-                    um.Start();
+                case 1:
+                    AdminMenu am = new AdminMenu();
+                    am.Start();
 
-                    switch (um.GetChoice())
+                    break;
+
+                case 2:
+                    BaseMenu bm = new BaseMenu();
+                    bm.Start();
+
+                    break;
+
+                case 3:
+                    UserMenu um = new UserMenu();
+
+                    do
                     {
-                        case 1:
-                            Console.WriteLine("Тестирование:");
-                            Console.WriteLine();
-                            break;
+                        try
+                        {
+                            um.Start();
 
-                        case 2:
-                            Console.WriteLine("Результаты тестирования:");
-                            Console.WriteLine();
-                            break;
+                            switch (um.GetChoice())
+                            {
+                                case 1:
+                                    Console.WriteLine("Тестирование:");
+                                    Console.WriteLine();
+                                    break;
 
-                        case 3:
-                            Console.WriteLine("Лучшие результаты:");
-                            Console.WriteLine();
-                            break;
+                                case 2:
+                                    Console.WriteLine("Результаты тестирования:");
+                                    Console.WriteLine();
+                                    break;
 
-                        case 4:
-                            Console.WriteLine("Выход из системы...");
-                            Console.WriteLine();
-                            break;
+                                case 3:
+                                    Console.WriteLine("Лучшие результаты:");
+                                    Console.WriteLine();
+                                    break;
 
-                        default:
-                            throw new Exception("Ошибка! Недопустимый вариант выбора");
-                    }
-                }
+                                case 4:
+                                    Console.WriteLine("Выход из системы...");
+                                    Console.WriteLine();
+                                    break;
 
-                catch (Exception err)
-                {
-                    Console.WriteLine(err.Message);
-                }
-            } while (um.AllowContinue());
+                                default:
+                                    throw new Exception("Ошибка! Недопустимый вариант выбора");
+                            }
+                        }
 
-            um.Finish();
-        }
+                        catch (Exception err)
+                        {
+                            Console.WriteLine(err.Message);
+                        }
+                    } while (um.AllowContinue());
+
+                    um.Finish();
+
+                    break;
+
+                 default:
+                    break;
+            }
+        }      
     }
- 
 }

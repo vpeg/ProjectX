@@ -24,12 +24,12 @@
   <Class Name="ProjectX.DataManager" Collapsed="true">
     <Position X="3.25" Y="3.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>BAEAAAAAIAAQBAAAAAAAAIAQAAAAAAAAAAAAAAAAEAA=</HashCode>
       <FileName>DataManager.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="ProjectX.Program" Collapsed="true">
-    <Position X="9.5" Y="1.25" Width="1.5" />
+    <Position X="7.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
       <FileName>Program.cs</FileName>
@@ -45,7 +45,7 @@
   <Class Name="ProjectX.Subject" Collapsed="true">
     <Position X="3.25" Y="2.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AABAABAAAAAAAAABAAAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Subject.cs</FileName>
     </TypeIdentifier>
   </Class>
